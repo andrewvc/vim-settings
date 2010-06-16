@@ -11,3 +11,4 @@ no n l
 no j d
 no l n
 no L N
+nmap - :
