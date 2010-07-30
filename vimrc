@@ -1,8 +1,10 @@
 syntax on
 set expandtab
+set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-colorscheme evening
+set nowrap
+colorscheme torte
 " Dvorak cursor movement
 no d h
 no h j
