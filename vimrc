@@ -4,7 +4,9 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set nowrap
-colorscheme torte
+set cursorline
+set number
+colorscheme slate
 " Dvorak cursor movement
 no d h
 no h j
