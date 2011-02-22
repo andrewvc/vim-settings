@@ -8,13 +8,13 @@ set nowrap
 set number
 colorscheme slate
 " Dvorak cursor movement
-no d h
-no h j
-no t k
-no n l
-no j d
-no l n
-no L N
+" no d h
+" no h j
+" no t k
+" no n l
+" no j d
+" no l n
+" no L N
 nmap - :
 
 "Fix gvim's fucked up copy/paste
