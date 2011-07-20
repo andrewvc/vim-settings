@@ -1,6 +1,7 @@
 syntax on
 filetype plugin indent on
 
+set modeline
 set expandtab
 set tabstop=2
 set shiftwidth=2
