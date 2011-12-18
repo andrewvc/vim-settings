@@ -10,9 +10,9 @@ set nowrap
 " set cursorline
 set number
 
-" Clojure
-let g:clj_highlight_builtins=1 " Highlight Clojure's builtins
-let g:clj_paren_rainbow=1      " Rainbow parentheses'!
+" VimClojure
+let vimclojure#HighlightBuiltins = 1
+let vimclojure#ParenRainbow = 1
 
 set background=dark
 colorscheme slate
