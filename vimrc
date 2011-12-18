@@ -1,5 +1,5 @@
-syntax on
 filetype plugin indent on
+syntax on
 
 set modeline
 set expandtab
@@ -10,16 +10,14 @@ set nowrap
 " set cursorline
 set number
 
+" Clojure
+let g:clj_highlight_builtins=1 " Highlight Clojure's builtins
+let g:clj_paren_rainbow=1      " Rainbow parentheses'!
+
 set background=dark
 colorscheme slate
-" Dvorak cursor movement
-" no d h
-" no h j
-" no t k
-" no n l
-" no j d
-" no l n
-" no L N
+
+" Set dash as an alternate to Ctrl-:
 nmap - :
 
 "Fix gvim's fucked up copy/paste
